@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OO_Programming_Problem_Statement_Solution.Branch">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Branch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Programming_Problem_Statement_Solution.Company">
+    <Position X="2" Y="0.5" Width="1.5" />
+    <AssociationLine Name="employees" Type="OO_Programming_Problem_Statement_Solution.Employee" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.5" Y="1.75" />
+        <Point X="3.875" Y="1.75" />
+        <Point X="3.875" Y="4.743" />
+        <Point X="5.5" Y="4.743" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="others" Type="OO_Programming_Problem_Statement_Solution.Branch" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.281" Y="1.796" />
+        <Point X="2.281" Y="3" />
+        <Point X="1" Y="3" />
+        <Point X="1" Y="3.688" />
+        <Point X="1.25" Y="3.688" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="registered" Type="OO_Programming_Problem_Statement_Solution.Branch" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2.915" Y="1.796" />
+        <Point X="2.915" Y="3.625" />
+        <Point X="2.75" Y="3.625" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAIAIABQAEAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Company.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="corporate" />
+      <Property Name="registered" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="customers" />
+      <Property Name="employees" />
+      <Property Name="others" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="OO_Programming_Problem_Statement_Solution.Customer">
+    <Position X="8" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Customer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Programming_Problem_Statement_Solution.Employee">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAIAAAAAAAAAAAAAAAAIBAAAAAAAA=</HashCode>
+      <FileName>Employee.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Programming_Problem_Statement_Solution.Person">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAQAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OO_Programming_Problem_Statement_Solution.SalaryCalculator">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>SalaryCalculator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
