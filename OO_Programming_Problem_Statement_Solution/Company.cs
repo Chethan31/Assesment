@@ -17,5 +17,30 @@ namespace OO_Programming_Problem_Statement_Solution
         public List<Branch> others { get; set; }
         public Branch registered { get; set; }
         public Branch corporate { get; set; }
+
+        public int getTotalCustomers()
+        {
+            return customers.Count;
+        }
+        public float getToatalSalaryPayout()
+        {
+            float total = 0;
+
+            return total;
+        }
+        public Employee getEmployeeByEmpId(long id)
+        {
+            Employee employee = null;
+
+            return employee;
+        }
+        //public List<Employee> getExperiencedEmployees(int yearsOfExperience)
+        //{
+
+        //}
+        //public List<Employee> getEmployeesGroupedByAge()
+        //{
+
+        //}
     }
 }

@@ -10,7 +10,24 @@ namespace OO_Programming_Problem_Statement_Solution
     {
         public static float calculateAllowance(int experience,float basic)
         {
-            return 0;
+            float allowance = 0;
+            if(experience <= 2)
+            {
+                allowance = (30 * basic) / 100;
+            }
+            else if (experience <= 4)
+            {
+                allowance = (40 * basic) / 100;
+            }
+            else if (experience <= 6)
+            {
+                allowance = (50 * basic) / 100;
+            }
+            else if (experience >6)
+            {
+                allowance = (65 * basic) / 100;
+            }
+            return allowance;
         } 
     }
 }
