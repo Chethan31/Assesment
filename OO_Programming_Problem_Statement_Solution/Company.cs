@@ -22,10 +22,17 @@ namespace OO_Programming_Problem_Statement_Solution
         {
             return customers.Count;
         }
-        //public float getToatalSalaryPayout()
-        //{
-            
-        //}
+        public float getToatalSalaryPayout()
+        {
+            float total = 0;
+            var empMax = employees.ToList();
+
+            foreach (var emp in employees)
+            {
+                total += emp.getSalary();
+            }
+            return total;
+        }
         public Employee getEmployeeByEmpId(long id)
         {
             Employee employee = (from emp in employees
@@ -41,11 +48,13 @@ namespace OO_Programming_Problem_Statement_Solution
                              select emp).ToList();
 
 
-            return employees;
+            return employexp;
         }
-        //public List<Employee> getEmployeesGroupedByAge()
-        //{
+        public List<Employee> getEmployeesGroupedByAge()
+        {
+            List<Employee> empage = employees.OrderBy(x=> x.age).ToList();
 
-        //}
+            return empage;
+        }
     }
 }
